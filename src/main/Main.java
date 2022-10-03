@@ -17,5 +17,6 @@ public class Main {
 		frame.add(lines);
 		frame.setSize(640, 480); //Definne tamannnho do frame
 		frame.setVisible(true); //Exibe o frame
+		frame.setResizable(false);
 	}
 }
